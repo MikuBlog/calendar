@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="calendar">
+        <form>
+            <select id="year">
+                <option value="年份">年份</option>
+            </select>
+            <div id="arrow1">
+                <img src="source/细箭头.png" alt="" id="one">
+                <img src="source/细箭头.png" alt="" id="two">
+            </div>
+            <select id="month">
+                <option value="月份">月份</option>
+            </select>
+            <div id="arrow2">
+                <img src="source/细箭头.png" alt="" id="three">
+                <img src="source/细箭头.png" alt="" id="four">
+            </div>
+        </form>
+        <div>
+            <ul id="weekday">
+                <li>日</li>
+                <li>一</li>
+                <li>二</li>
+                <li>三</li>
+                <li>四</li>
+                <li>五</li>
+                <li>六</li>
+            </ul>
+        </div>
+        <ul id="date"></ul>
+        <div id="background"></div>
+        <div id="backgroundcolor"></div>
+    </div>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
